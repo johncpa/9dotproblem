@@ -30,7 +30,7 @@ app.post("/api/9dotproblem", (req, res) => {
 });
 
 app.get("/game/StreamingAssets", (req, res) => {
-  console.log("/9dotproblem got GET request from client");
+  console.log("/game/StreamingAssets got GET request from client");
   res.status(200);
   res.json(config.URL);
 });
