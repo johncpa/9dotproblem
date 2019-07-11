@@ -8,7 +8,7 @@ Summer 2019
 
 
 ### Running server
-
+Run "npm start" from the top folder.
 
 ## Configuration
 There is a single JSON formatted file called "config.json". It has the following which need to be configured for the server to work:
