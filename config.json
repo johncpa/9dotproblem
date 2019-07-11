@@ -1,0 +1,7 @@
+{
+  "DATABASE_HOST":"mysql.stud.iie.ntnu.no",
+  "DATABASE_USER":"sindrhpa",
+  "DATABASE_PASS":"N6BrO07y",
+  "DATABASE_DB":"sindrhpa",
+  "URL":"http://192.168.100.14:3000/api/9dotproblem"
+}
