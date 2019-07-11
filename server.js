@@ -32,7 +32,8 @@ app.post("/api/9dotproblem", (req, res) => {
 app.get("/game/StreamingAssets", (req, res) => {
   console.log("/game/StreamingAssets got GET request from client");
   res.status(200);
-  res.json(config.URL);
+  res.json(config.URL + ":" + (process.env.PORT || 3000) + "/api/9dotproblem");
+  console.log("Sent URL: " + config.URL);
 });
 
 //TESTING
