@@ -16,8 +16,8 @@ There is a single JSON formatted file called "config.json". It has the following
  * DATABASE_USER: The user for the database.
  * DATABASE_PASS: The password for the user.
  * DATABASE_DB: Which database to use within this user and host .
- * URL: The URL which the server is hosted on. Domain name or IP adress. E.g. "https://ninedotproblem.herokuapp.com".
-   Note that you might need ":PORT" added to the end of the URL, where PORT is the port the server is listening on.
+ * URL: The URL which the server is hosted on. Domain name or IP address. E.g. "https://ninedotproblem.herokuapp.com".
+   Note that you might need ":PORT" added to the end of the URL, where PORT is the port the server is listening on. This is not always the case, so you will have to test it out for yourself.
 
 ## Dependencies
 Requires:
