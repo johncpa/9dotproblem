@@ -21,6 +21,7 @@ var pool = mysql.createPool({
   multipleStatements: true
 });
 
+//post data
 app.post("/api/9dotproblem", (req, res) => {
   console.log("/api/9dotproblem got POST request from client");
   new DaoWrapper(pool).createOne(req.body, (status, data) => {
@@ -29,12 +30,21 @@ app.post("/api/9dotproblem", (req, res) => {
   });
 });
 
+//get URL
 app.get("/game/StreamingAssets", (req, res) => {
   console.log("/game/StreamingAssets got GET request from client");
   res.status(200);
   //res.json(config.URL + ":" + (process.env.PORT || 3000) + "/api/9dotproblem");
   res.json(config.URL + "/api/9dotproblem");
   console.log("Sent URL: " + config.URL);
+});
+
+//get max seconds
+app.get("/api/maxsec", (req, res) => {
+  console.log("/api/maxsec got GET request from client");
+  res.status(200);
+  res.json(config.MAX_SEC);
+  console.log("Sent max sec: " + config.MAX_SEC);
 });
 
 //TESTING
@@ -46,6 +56,7 @@ app.post("/9dotproblem", (req, res) => {
   });
 });
 
+//Testing: Logging
 var fs = require("fs");
 
 app.post("/9dotproblem/write", (req, res) => {
@@ -72,6 +83,7 @@ app.post("/9dotproblem/write", (req, res) => {
   });
 });
 
+//Basic endpoint
 app.get("/9dotproblem", (req, res) => {
   console.log("/9dotproblem got GET request from client");
 });

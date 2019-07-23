@@ -3,5 +3,6 @@
   "DATABASE_USER":"sindrhpa",
   "DATABASE_PASS":"N6BrO07y",
   "DATABASE_DB":"sindrhpa",
-  "URL":"https://ninedotproblem.herokuapp.com"
+  "URL":"https://ninedotproblem.herokuapp.com",
+  "MAX_SEC":60
 }

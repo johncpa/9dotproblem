@@ -1,16 +1,16 @@
 # 9 DOT PROBLEM
 By Sindre "Sindrex" Haugland Paulshus
+
 For BI
+
 Summer 2019
+
 
 ## Installation
 ### Download repository
+''git clone''
 
-
-### Running server
-Run "npm start" from the top folder.
-
-## Configuration
+### Configuration
 There is a single JSON formatted file called "config.json". It has the following which need to be configured for the server to work:
  * DATABASE_HOST: The URL to the database host.
  * DATABASE_USER: The user for the database.
@@ -19,7 +19,11 @@ There is a single JSON formatted file called "config.json". It has the following
  * URL: The URL which the server is hosted on. Domain name or IP address. E.g. "https://ninedotproblem.herokuapp.com".
    Note that you might need ":PORT" added to the end of the URL, where PORT is the port the server is listening on. This is not always the case, so you will have to test it out for yourself.
 
+### Running server
+Run "npm start" from the top folder.
+
 ## Dependencies
 Requires:
+ * Git bash or equivalent
  * NPM or equivalent
  * NodeJS
