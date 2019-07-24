@@ -21,6 +21,12 @@ var pool = mysql.createPool({
   multipleStatements: true
 });
 
+//Basic endpoint
+app.get("/id=:id", (req, res) => {
+  console.log("/id=:id got GET request from client: id=" + req.params.id);
+  res.sendfile("./public/index.html");
+});
+
 //post data
 app.post("/api/9dotproblem", (req, res) => {
   console.log("/api/9dotproblem got POST request from client");
@@ -81,11 +87,6 @@ app.post("/9dotproblem/write", (req, res) => {
       });
     }
   });
-});
-
-//Basic endpoint
-app.get("/9dotproblem", (req, res) => {
-  console.log("/9dotproblem got GET request from client");
 });
 
 const PORT = process.env.PORT || 3000;
