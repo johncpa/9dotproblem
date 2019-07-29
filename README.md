@@ -19,12 +19,10 @@ Trello board: https://trello.com/b/rl18dEEW/bi-9-dot-problem
 ## Installation and Running
 ### Download and Install
 Download the project or clone the repo:
-'''npm i https://github.com/Sindrex/9dotproblem
-cd 9dotproblem
-'''  
+`npm i https://github.com/Sindrex/9dotproblem`  
 
 Install the necessary dependencies using:
-'''npm install'''
+`npm install`
 
 ### Configuration
 There is a single JSON formatted file called "config.json". It has the following which need to be configured for the server to work:
@@ -39,7 +37,7 @@ There is a single JSON formatted file called "config.json". It has the following
  *Note: the database needs to be an SQL database, preferrably using Mysql.*
 
 ### Running server
-Run "npm start" from the top folder.
+Run `npm start` from the top folder.
 
 ## Dependencies
 Programs used to run:
