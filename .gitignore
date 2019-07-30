@@ -5,16 +5,16 @@ package-lock.json
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/unity_source/9dotproblem/[Ll]ibrary/
+/unity_source/9dotproblem/[Tt]emp/
+/unity_source/9dotproblem/[Oo]bj/
+/unity_source/9dotproblem/[Bb]uild/
+/unity_source/9dotproblem/[Bb]uilds/
+/unity_source/9dotproblem/[Ll]ogs/
+/unity_source/9dotproblem/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
-!/[Aa]ssets/**/*.meta
+!/unity_source/9dotproblem/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
