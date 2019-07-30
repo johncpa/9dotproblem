@@ -33,13 +33,10 @@ public class StartScript : MonoBehaviour {
 
     private void Update()
     {
-        //playButton.interactable = data.urlOK;
+        playButton.interactable = data.urlOK;
 
         //testing
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            play();
-        }
+        //if (Input.GetKeyDown(KeyCode.E)) play();
     }
 
     public void play()
