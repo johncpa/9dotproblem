@@ -1,4 +1,4 @@
-var express = require("express");
+﻿var express = require("express");
 var mysql = require("mysql");
 var bodyParser = require("body-parser");
 var app = express();
@@ -8,6 +8,7 @@ app.use(express.static('./public'));
 
 //app.use(express.static(public_path));
 var config = require('./config');
+
 
 const DaoWrapper = require("./daowrapper.js");
 
